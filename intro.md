@@ -1,6 +1,6 @@
 # Intro.md
 
-## Inclusaion:
+## Inclusion:
 A reusable `.gnummeric is held at the master's root off this repository.
 BONUS: 1kilo.txt
 (I lost the 1zill.json to a frugal power failure):
@@ -12,7 +12,7 @@ BONUS: 1kilo.txt
  - That`C1` is the 'index cost price';
  - That`C0` is the 'level cost price';
  
- Additionally, `C0` may need to be `#def` defined as an `uint`, preferably (iff possible) indexing commencing at `1` instead of a `False`.
+ Additionally, `C0` may need to be `#def` defined as an `uint`, preferably (iff possible) indexing commencing at `1` instead of a `False`. Otherwise, just replace index `i` with index `i-1` in the iterating loop parameter.
  
 ## Usage
 Clone, login  then fork your own.
